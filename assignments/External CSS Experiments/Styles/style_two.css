@@ -1,0 +1,22 @@
+h1 {
+    background-color: rgb(80, 50, 4);
+    color: rgb(29, 95, 153);
+
+}
+
+h2 {
+    background-color: rgb(23, 23, 92);
+    color: rgb(100, 28, 28);
+
+}
+
+h3 {
+    background-color: rgb(98, 65, 65);
+    color: rgb(229, 150, 31);
+}
+
+p {
+    background-color: rgb(133, 133, 58);
+    color: rgb(146, 26, 50);
+    width: 200px;
+}
