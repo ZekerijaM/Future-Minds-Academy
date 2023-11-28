@@ -1,0 +1,12 @@
+#main-title {
+    background-color: blueviolet;
+    color: aqua;
+    text-align: center
+}
+
+.title {
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    width: 70%;
+}
