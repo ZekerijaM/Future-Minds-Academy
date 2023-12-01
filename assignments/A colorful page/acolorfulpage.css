@@ -1,0 +1,22 @@
+body {
+
+    background: url(./images/th.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+header {
+    background-color: rgba(241, 15, 15, 0.5);
+}
+
+ul {
+    background-color: rgba(58, 51, 51, 0.612);
+    color: aqua;
+}
+
+p {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(161, 131, 68, 1) 100%);
+    color: brown;
+}
