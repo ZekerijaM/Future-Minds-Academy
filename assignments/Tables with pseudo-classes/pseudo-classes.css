@@ -1,0 +1,21 @@
+.tabela th {
+    text-align: left;
+    color: black;
+}
+
+.tabela {
+    width: 40%;
+    border: 0;
+    border-spacing: 0 2px;
+    height: 400px;
+}
+
+.tabela tr:nth-child(odd) {
+    background-color: green;
+    color: white;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: rgb(15, 54, 14);
+    color: white;
+}
