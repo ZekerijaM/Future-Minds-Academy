@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+}
+
+.card {
+    position: relative;
+    box-shadow: 1px 1px 20px 2px rgb(110, 108, 108);
+    width: 40%;
+    padding: 9px 9px;
+    margin: 40px 20px;
+    background-color: antiquewhite;
+}
+
+.card button {
+    background-color: red;
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.card button:hover {
+    background-color: aqua;
+    cursor: cell;
+}
+
+.video1 video {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    width: 25%;
+}
