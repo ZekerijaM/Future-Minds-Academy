@@ -4,10 +4,8 @@
 }
 
 body {
-    background-color: rgb(214, 177, 132);
+    background-color: #d6b184;
 }
-
-.class1 {}
 
 .imgc {
     float: left;
@@ -25,4 +23,5 @@ body {
     border-color: red;
     border-style: dashed;
     border-radius: 20px;
+
 }
