@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerCard section {
+    height: 25vh;
+}
+
+
+.containerCard section:nth-child(odd) {
+    background: #000;
+    color: white;
+}
+
+.containerCard section:nth-child(even) {
+    background: lightyellow;
+    color: black;
+}
+
+.containerCard hr {
+    border: 1px solid red;
+    width: 33%;
+    margin: 0 auto;
+}
