@@ -1,0 +1,60 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+aside {
+    padding: 20px;
+    height: 100vh;
+    background-image: url(./assets/images/sidebar-1.jpg);
+    background-color: hsla(0, 0%, 0%, 0.793);
+    background-blend-mode: color;
+}
+
+
+
+.dGrid {
+    display: grid;
+
+}
+
+.fontSize20px {
+    font-size: 20px;
+}
+
+.textColorWhite {
+    color: white;
+}
+
+.img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.gap1R {
+    gap: 1rem;
+}
+
+.GridColumnsAuto1AutoGapAlignItemsC {
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+.padding15px {
+    padding: 15px;
+}
+
+.active {
+    background-color: orange;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.asideLink:hover:not(.logo, .active, .avatar) {
+    background-color: rgba(128, 128, 128, 0.578);
+}
