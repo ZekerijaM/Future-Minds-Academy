@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: rgb(206, 166, 113);
+}
+
+
+aside {
+    background-color: rgb(194, 67, 136);
+}
+
+main {
+    background-color: green;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100vh;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}

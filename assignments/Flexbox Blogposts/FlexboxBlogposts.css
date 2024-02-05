@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+.bgColorGray {
+    background-color: gray;
+}
+
+body {
+    display: flex;
+}
+
+aside {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    align-items: end;
+    height: 100vh;
+    padding: 40px;
+}
+
+.fontSize20 {
+    font-size: 30px;
+}
+
+main {
+    width: 85vw;
+    padding: 40px 70px;
+}
+
+.flexDirectionColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.flexSpaceBtw {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.flexAlignItemsCenter {
+    align-items: center;
+}
+
+.paddingX20 {
+    padding: 20px 0px;
+}
+
+.textColorGray {
+    color: gray;
+}
+
+.textColorBlue {
+    color: blue;
+}
+
+.textColorWhite {
+    color: white;
+}
+
+.bgColorGreen {
+    background-color: rgb(22, 155, 22);
+}
+
+.bgColorRed {
+    background-color: red;
+}
+
+.bgColorBlue {
+    background-color: blue;
+}
+
+.PaddingX5Y10 {
+    padding: 2px 5px;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+
+.marginTop60 {
+    margin-top: 60px;
+}

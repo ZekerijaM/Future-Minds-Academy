@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 300px;
+    filter: blur(10px);
+    transition: filter .5s, transform 1.5s .3s ease;
+}
+
+img:hover {
+    filter: blur(0);
+    transform: rotate(720deg);
+}

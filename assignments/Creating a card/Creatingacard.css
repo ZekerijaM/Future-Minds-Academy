@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+}
+
+.cardHeader {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 100%;
+}
+
+img {
+    border: 3px solid black;
+    width: 100%;
+}
+
+.TextTop {
+    position: absolute;
+    top: 0;
+}
