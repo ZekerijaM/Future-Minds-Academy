@@ -4,23 +4,40 @@
 }
 
 body {
-    display: grid;
+    background-color: rgba(233, 229, 229, 0.445);
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.gridColumnsAuto1FR {
     grid-template-columns: auto 1fr;
 }
 
+.cursorPointer {
+    cursor: pointer;
+}
+
+/* ASIDE FORM  */
+
 aside {
     padding: 20px;
-    height: 100vh;
     background-image: url(./assets/images/sidebar-1.jpg);
     background-color: hsla(0, 0%, 0%, 0.793);
     background-blend-mode: color;
+    overflow: hidden;
 }
 
-
+.overflowScroll {
+    overflow: scroll;
+}
 
 .dGrid {
     display: grid;
+}
 
+a {
+    text-decoration: none;
 }
 
 .fontSize20px {
@@ -31,7 +48,7 @@ aside {
     color: white;
 }
 
-.img {
+.imgAvatar {
     width: 40px;
     border-radius: 50%;
 }
@@ -40,7 +57,7 @@ aside {
     gap: 1rem;
 }
 
-.GridColumnsAuto1AutoGapAlignItemsC {
+.GridColumnsAuto1AutoAlignItemsC {
     grid-template-columns: auto 1fr auto;
     align-items: center;
 }
@@ -50,11 +67,225 @@ aside {
 }
 
 .active {
-    background-color: orange;
-    border-radius: 3px;
     margin-top: 10px;
 }
 
 .asideLink:hover:not(.logo, .active, .avatar) {
     background-color: rgba(128, 128, 128, 0.578);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+:root {
+    --background-colorRed: red;
+}
+
+/* HEADER FORM */
+
+.circle {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.boxShadow {
+    box-shadow: 0px 0px 7px 1px gray;
+}
+
+.circle:hover {
+    transition: 2s;
+    box-shadow: 0px 0px 10px 10px rgb(172, 168, 168);
+    cursor: pointer;
+}
+
+.dFlexAlignItemsC {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid lightgray;
+}
+
+.padding15Y30Z {
+    padding: 15px 30px;
+}
+
+.dFlexSpaceBetwen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificationsInfo {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    right: -2px;
+    top: -4px;
+    border: 2px solid white;
+}
+
+.notifications:hover .notificationsMSG {
+    display: block;
+}
+
+.notificationsMSG {
+    top: 10px;
+    right: 12px;
+    width: 220px;
+}
+
+.notificationsMSG p {
+    padding: 10px;
+}
+
+.notificationsMSG p:hover {
+    background-color: var(--background-colorRed);
+    color: white;
+}
+
+.positionA {
+    position: absolute;
+}
+
+.positionR {
+    position: relative;
+}
+
+.backColorW {
+    background-color: white;
+}
+
+/* MAIN FORM  */
+
+.iconsCards {
+    width: 30px;
+    height: 30px;
+    padding: 25px;
+    margin-top: -30px;
+}
+
+.widthHeight20px {
+    width: 20px;
+    height: 20px;
+}
+
+.gridColumns1FR1FR {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridColumns1FR1FR1FR {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.padding8px {
+    padding: 8px;
+}
+
+.marginTop60px {
+    margin-top: 60px
+}
+
+.paddingTop30px {
+    padding-top: 30px;
+}
+
+.colorGray {
+    color: gray;
+}
+
+hr {
+    border: 1px solid lightgray;
+}
+
+.backColorLightGreen {
+    background-color: rgb(98, 218, 98);
+}
+
+.backColorOrange {
+    background-color: orange;
+}
+
+.backColorRed {
+    background-color: red;
+}
+
+.backColorLightBlue {
+    background-color: rgb(95, 190, 221);
+}
+
+.borderRadius5px {
+    border-radius: 5px;
+}
+
+.gap2rem {
+    gap: 2rem;
+}
+
+.ManageListingCardsImages {
+    width: 100%;
+    transform: translateY(-40px);
+}
+
+.ManageListingCardsImages:hover {
+    transition: ease .2s;
+    transform: translateY(-65px);
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.justifyContentCenter {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+.cardIconsContainer3:hover .displayNone {
+    display: flex;
+}
+
+/* FOOTER FORM  */
+
+a {
+    color: black;
+}
+
+/* Responsive */
+
+@media (max-width:1050px) {
+    aside {
+        display: none;
+    }
+
+    .headerRight {
+        display: none;
+    }
+
+    .HeaderMenu {
+        display: block;
+    }
+
+    .container1 {
+        grid-template-columns: 1fr;
+    }
+
+    .container3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:435px) {
+
+    .container2,
+    .container3 {
+        grid-template-columns: 1fr;
+    }
 }
