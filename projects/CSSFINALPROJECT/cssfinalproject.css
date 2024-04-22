@@ -224,6 +224,12 @@ hr {
     gap: 2rem;
 }
 
+
+
+.textAlignCenter {
+    text-align: center;
+}
+
 .ManageListingCardsImages {
     width: 100%;
     transform: translateY(-40px);
@@ -234,9 +240,6 @@ hr {
     transform: translateY(-65px);
 }
 
-.textAlignCenter {
-    text-align: center;
-}
 
 .justifyContentCenter {
     display: flex;
